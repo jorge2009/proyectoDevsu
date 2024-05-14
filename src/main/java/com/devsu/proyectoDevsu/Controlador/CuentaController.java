@@ -30,6 +30,7 @@ public class CuentaController {
     @GetMapping
     public ArrayList<Cuenta> ObtenerCliente(){
     return cuentaServicio.obtenerCuenta();
+    
     }
     
      @GetMapping(path="/{id}")

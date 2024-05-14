@@ -37,6 +37,7 @@ public class ClienteController {
      @GetMapping(path="/{id}")
     public ArrayList<Cliente> ClientePodId(@PathVariable("id") int id){
     return clienteServicio.ObtenerPorId(id);
+    
     }
     
     @PostMapping

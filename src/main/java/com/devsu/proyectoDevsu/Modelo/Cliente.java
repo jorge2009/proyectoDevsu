@@ -21,6 +21,7 @@ public class Cliente {
   @Id @GeneratedValue(strategy=GenerationType.AUTO)
   private int clienteId;
   private String contrasena;
+  
   private String estado;
   
   @OneToOne
