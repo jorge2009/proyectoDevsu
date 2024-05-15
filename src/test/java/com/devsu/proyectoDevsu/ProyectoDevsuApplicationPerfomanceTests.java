@@ -29,6 +29,7 @@ import org.springframework.web.context.WebApplicationContext;
 @AutoConfigureMockMvc
 class ProyectoDevsuApplicationPerfomanceTests {
     
+    
      @Autowired
     protected WebApplicationContext webApplicationContext;
  
